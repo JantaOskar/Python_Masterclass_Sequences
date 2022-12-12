@@ -22,9 +22,15 @@ print("*" * 80)
 
 # printing items if not spam:
 
-for meal in menu:
-    for item in meal:
-        if item != "spam":
-            print(item, end=", ")
-    print()
+# for meal in menu:
+#     for item in meal:
+#         if item != "spam":
+#             print(item, end=", ")
+#     print()
 
+
+# generator code
+
+for meal in menu:
+    items = ", ".join((item for item in meal if item != "spam"))
+    print(items)
