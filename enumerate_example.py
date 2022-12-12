@@ -1,4 +1,10 @@
-for index, character in enumerate("abcdefgh"):
+# for index, character in enumerate("abcdefgh"):
+#     print(index, character)
+
+for t in enumerate("abcdefgh"):
+    index, character = t
     print(index, character)
 
-# enumerate returns pairs of values the item in a list with its index
+index, character = (0, 'a')
+print(index)
+print(character)
