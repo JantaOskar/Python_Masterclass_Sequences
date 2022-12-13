@@ -47,17 +47,31 @@ print()
 album = albums[3]
 print(album)
 
+print()
+
 songs = album[3]
 print(songs)
+
+print()
 
 song = songs[2]
 print(song)
 print(song[1])
 
+print()
+
 mayhem = albums[3][3][2][1]
 print(mayhem)
+
+print()
 
 print(albums[3])
 print(albums[3][3])
 print(albums[3][3][2])
 print(albums[3][3][2][1])
+print()
+
+print(albums[1][3][5][1])
+print(albums[2][2])
+print(albums[3][3][3][0])
+print(albums[2][3][1])
